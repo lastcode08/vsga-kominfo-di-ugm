@@ -1,0 +1,16 @@
+.media{
+	overflow: hidden;
+	color: #fff;
+	background-color: #000;
+	background-image: linear-gradient(black, grey);
+}
+.media .img{
+	float: left;
+	border: 1px solid #ccc;
+}
+.media .img img{
+	display: block;
+}
+.media .content{
+	background: #fff url("../images/media.svg") no-repeat;
+}
